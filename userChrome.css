@@ -19,9 +19,9 @@
 #identity-box {
 	display: none !important;
 }
-.titlebar-spacer:first-of-type {
+/* .titlebar-spacer:first-of-type {
 	display: none !important;
-}
+} */
 .sidebar-panel::webkit-scrollbar {
 	width: 5px !important;
 }
