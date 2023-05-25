@@ -1,0 +1,103 @@
+
+:root {
+	--tab-block-margin: 2px 2px !important;
+	--dark-accent: rgb(28, 27, 34) !important;
+	--focus-outline-color: none !important;
+	--urlbar-box-focus-bgcolor: none !important;
+
+	--toolbarbutton-outer-padding: 3px !important;
+	--toolbarbutton-inner-padding: 3px !important;
+
+	--tab-border-radius: 3px !important;
+}
+
+* {
+	font-family: "iosevka consolas" !important;
+	font-weight: bold !important;
+	font-size: 12px !important;
+}
+#identity-box {
+	display: none !important;
+}
+.titlebar-spacer:first-of-type {
+	display: none !important;
+}
+.sidebar-panel::webkit-scrollbar {
+	width: 5px !important;
+}
+.tab-icon-image {
+	display: none !important;
+}
+
+#TabsToolbar, #tabbrowser-tabs {
+    --tab-min-height: 20px !important;
+}
+
+#nav-bar{ 
+	/* background-color: var(--dark-accent) !important; */
+	height: 26px !important;
+}
+
+/* #urlbar[focused] {
+	--urlbar-box-bgcolor: var(--dark-accent) !important;
+	--urlbar-box-focus-bgcolor: var(--dark-accent) !important;
+	--urlbar-box-hover-bgcolor: var(--dark-accent) !important;
+} */
+#urlbar-background {
+	background: var(--dark-accent) !important;
+}
+
+.tab-close-button{
+	width: 1rem !important;
+	height: 1rem !important;
+	padding: 0px !important;
+
+	margin-inline-end: 5px !important;
+}
+
+#alltabs-button { display: none !important; }
+
+.tab-background[selected="true"] {
+	border-left: 4px solid rgb(0,221,255) !important;
+}
+.tab-background {
+	margin: 3px 0 !important;
+	padding-left: 6px !important;
+}
+
+#stop-reload-button, 
+#back-button, 
+#forward-button,
+#unified-extensions-button,
+#nav-bar-overflow-button,
+#page-action-buttons {
+	display: none !important;
+}
+
+.titlebar-min,
+.titlebar-restore, 
+.titlebar-max {
+	display: none !important;
+}
+
+.titlebar-close {
+	list-style-image: url("./fire.png") !important;
+	filter: grayscale(1) !important;
+	display: none !important;
+}
+.titlebar-close:hover {
+	background: none !important;
+	filter: grayscale(0) !important;
+}
+#PanelUI-menu-button {
+	list-style-image: url("./square.png") !important;
+	display: none !important;
+}
+
+scrollbox[smoothscroll="true"] {
+	display: flex !important;
+	justify-content: center !important;
+}
+#urlbar-input { 
+	text-align: center !important; 
+}

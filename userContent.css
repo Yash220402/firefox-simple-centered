@@ -1,0 +1,75 @@
+:root{ 
+    /*scrollbar-face-color: red !important;*/
+    /*scrollbar-track-color: var(--nord-dark)	!important;*/
+    /*scrollbar-color: var(--nord-white) var(--nord-dark)	!important;*/
+    scrollbar-width: thin !important;
+}
+
+@-moz-document url("about:newtab"),
+url("about:home"), 
+url("about:blank") {
+    * {
+        margin: 0 !important;
+        padding: 0 !important;
+        box-sizing: border-box !important;
+    }
+    body.activity-stream { 
+    }
+    .outer-wrapper.newtab-experience .search-wrapper .search-inner-wrapper {
+        display: none !important;
+    }
+    .outer-wrapper {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        /* background-image: url("./bg.jpg") !important;
+        background-size: 300% !important;
+        background-size: 100% 100% !important;
+        background-position: 50% 0% !important; */
+    }
+    .logo {
+        /* background: url("./black-ff.png") !important; */
+        background-size: 100% 100% !important;
+    }
+    .logo, .wordmark {
+        margin: 0.5rem !important;
+    }
+    .wordmark {
+        display: none !important;
+    }
+    .icon-settings {
+/*        display: none !important;*/
+    }
+    .search-inner-wrapper {
+        display: none !important; 
+    }
+    .personalize-button {
+        display: none !important;
+    }
+}
+
+@-moz-document url("about:preferences"),
+url("about:preferences#general"),
+url("about:preferences#home"),
+url("about:preferences#search"),
+url("about:preferences#privacy"),
+url("about:preferences#sync"),
+url("about:addons"),
+url("about:profiles") {
+
+    :root {
+        /* --in-content-primary-button-background: transparent; */
+    }
+
+    * {
+        font-family: "iosevka consolas" !important;
+        font-stretch: expanded !important;
+        font-weight: normal !important;
+        font-size: 11px !important;
+    }
+    /*#sidebar, .navigation {
+        background-image: linear-gradient(to top, #f27154, #5e33ff) !important;
+        background-size: 3% 50% !important;
+        background-repeat: no-repeat !important;
+        background-position: 0% 50% !important;*/
+}
