@@ -22,6 +22,7 @@ url("about:blank") {
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
+        background: rgb(28, 27, 34) !important;
         /* background-image: url("./bg.jpg") !important;
         background-size: 300% !important;
         background-size: 100% 100% !important;
@@ -65,7 +66,7 @@ url("about:profiles") {
         font-family: "iosevka consolas" !important;
         font-stretch: expanded !important;
         font-weight: normal !important;
-        font-size: 11px !important;
+        font-size: 12px !important;
     }
     /*#sidebar, .navigation {
         background-image: linear-gradient(to top, #f27154, #5e33ff) !important;
